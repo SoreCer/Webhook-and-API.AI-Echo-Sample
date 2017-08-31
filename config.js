@@ -1,0 +1,1 @@
+module.exports.mongoURL="ncbot17:efedlb17#@ds111124mlab.com:11124/quinoa"
