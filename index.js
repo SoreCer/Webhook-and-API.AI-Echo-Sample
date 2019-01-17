@@ -32,8 +32,7 @@ restService.post('/echo', function(req, res) {
             var speech ="El destino mezcla las cartas, y nosotros las jugamos";
     }*/
     return res.json({
-        speech: speech,
-        displayText: speech,
+        fulfillmentText: speech,
         source: 'webhook-echo-sample'
     });
 });
